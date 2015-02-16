@@ -58,6 +58,10 @@ gulp.task('style:build', function () {
     gulp.src(path.src.style)
         .pipe(sourcemaps.init())
         .pipe(less())
+        .on('error', function(error) {
+            console.log(error);
+            this.end();
+        })
         .pipe(prefixer())
         .pipe(minify())
         .pipe(sourcemaps.write())
