@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "homepage": "https://github.com/krontill/frontend-devil",
   "description": "Devil boilerplate for html+js+css apps.",
+  "moduleType": [
+    "globals"
+  ],
   "authors": [
     "krontill"
   ],
