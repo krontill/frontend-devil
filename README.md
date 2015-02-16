@@ -8,3 +8,12 @@ Devil boilerplate for html+js+css apps.
 * sass -> less,
 * gulp-connect -> browser-sync,
 * gulp-cssmin -> gulp-minify-css;
+
+На компе должно быть установлены node.js, git.
+
+Запускаем:
+
+* npm install
+* bower install
+* gulp
+* profit!
