@@ -1,9 +1,10 @@
 /*
- Third party
+ * Third party
  */
-//= ../../bower_components/jquery/dist/jquery.min.js
+//= ../../bower_components/jquery/dist/jquery.js
+
 
 /*
-    Custom
+ * Custom
  */
-//= partials/helper.js
+//= partials/app.js
