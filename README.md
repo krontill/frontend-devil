@@ -13,6 +13,7 @@ Devil boilerplate for html+js+css apps.
 
 Запускаем:
 
+* git clone https://github.com/krontill/frontend-devil
 * npm install
 * bower install
 * gulp

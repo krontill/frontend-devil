@@ -7,4 +7,4 @@
 /*
  * Custom
  */
-//= partials/app.js
+//= _app.js
