@@ -49,6 +49,10 @@ gulp.task('js:build', function () {
         .pipe(rigger())
         .pipe(sourcemaps.init())
         .pipe(uglify())
+        .on('error', function(error) {
+            console.log(error);
+            this.end();
+        })
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.js))
         .pipe(browserSync.reload({stream: true}));
